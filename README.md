@@ -1,6 +1,6 @@
 <b>Nur Inayah Al-'Azhimah (2109116017)</b>
 
-Nama website : <b>Female Daily</b>
+Nama website : <b>Female Daily</b><br>
 Desain rancang web berdasarkan studi kasus website kecantikan, dimana website tersebut merupakan wadah bagi para beauty enthusiast untuk dapat mencari tau segala hal seputar produk kecantikan. Dari make-up product hingga skincare product, also from the head to the toe. Website menyediakan layanan review product sehingga beauty enthusiast dapat saling merekomendasikan dan membagikan pengalaman mengenai suatu produk.
 
 Website memiliki 4 halaman, yaitu :
