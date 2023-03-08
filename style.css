@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    font-family: Tahoma;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    font-size: 18px;
+    background-color: #c23560ce;
+    padding: 20px 50px 10px 20px;
+    z-index: 100;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.295);
+    text-align: center;
+}
+
+nav a{
+    position: relative;
+    display: inline-block;
+    padding: 15px 15px 15px 15px;
+    border-radius: 10px;
+    color: #fff;
+    text-decoration: none
+}
+
+nav a:hover{
+    background-color: #ac536d;
+}
+
+main{
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+    background-color: #fff;
+    padding: 120px 0px 0px 0px;
+}
+
+main .welcome .judul{
+    text-align: center;
+    padding: 30px 0px 50px 0px;
+    font-family: 'Gill Sans';
+    font-size: 80px;
+    color: #612e2ed2;
+}
+
+main .editor-picks{
+    position: relative;
+    left: 102px;
+    width: 1130px;
+    height: 480px;
+    border-radius: 30px;
+    background-color: #c482827a;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.137);
+}
+
+main .editor-picks .judul{
+    padding: 30px 0px 30px 20px;
+    max-width: 100%;
+    text-align: center;
+}
+
+main .editor-picks .box1{
+    position: relative;
+    left: 20px;
+    padding: 30px 30px 30px 30px;
+    display: inline-block;
+    width: 150px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+main .editor-picks .box2{
+    position: relative;
+    left: 25px;
+    padding: 30px 30px 30px 30px;
+    display: inline-block;
+    width: 150px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+main .editor-picks .box3{
+    position: relative;
+    left: 30px;
+    padding: 30px 30px 30px 30px;
+    display: inline-block;
+    width: 150px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+main .editor-picks .box4{
+    position: relative;
+    left: 35px;
+    padding: 30px 30px 30px 30px;
+    display: inline-block;
+    width: 150px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+main .editor-picks .box5{
+    position: relative;
+    left: 40px;
+    padding: 30px 30px 30px 30px;
+    display: inline-block;
+    width: 150px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+main .event .judul{
+    text-align: center;
+    padding: 100px 0px 30px 0px;
+}
+
+main .event .desc{
+    text-align: center;
+    display: inline-block;
+    max-width:520px;
+    margin-left: 420px;
+    padding-bottom: 30px;
+}
+
+main .event-signature{
+    position: relative;
+    left: 200px;
+    width: 950px;
+    height: 300px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.13);
+    margin-bottom: 30px;
+}
+
+main .event-signature .boxKiri{
+    position: relative;
+    left: 25px;
+    padding: 10px 10px 10px 10px;
+    display: inline-block;
+    width: 400px;
+    height: 250px;
+    text-decoration: none;
+    text-align: center;
+}
+
+main .event-signature .boxKanan{
+    position: relative;
+    left: 30px;
+    bottom: 110px;
+    padding: 30px 30px 30px 30px;
+    display: inline-block;
+    width: 450px;
+    height: 200px;
+}
+
+main .event-signature .boxKanan .event-name{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 50px 50px 20px 0px;
+}
+
+.event-signature .boxKanan .event-desc{
+    text-align: left;
+    padding: 5px 5px 5px 0px;
+}
+
+
+footer{
+    position: relative;
+    
+    background-color: rgba(225, 225, 225, 0.651);
+    padding: 25px 40px 25px 500px;
+    max-width: 100%;
+    font-size: 14px;
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register.css">
+	<title>Daftar</title>
+</head>
+<body>
+    <nav>
+		<div>
+        	<a href="index.html">Home</a>
+			<a href="aboutus.html">About Us</a>
+			<a href="productreview.html">Product & Review</a>
+			<a href="register.html">Register</a>
+		</div>
+    </nav>
+    
+	<main>
+		<div class="daftarakun">
+            <h2 class="judul">Registering Account</h2>
+			<form>
+                <div class="boxKiri">
+                    <div class="input-box">
+                        <span class="details">Name</br></span>
+                        <input type="text" name="nama" placeholder="Enter your name" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details"><br>Gender</span>
+                        <div class="category">
+                            <input type="radio" name="paham" id="dot-1">
+                            <label for="dot-1">
+                                <span class="dot one"></span>
+                                <span class="gender">Male</span>
+                            </label>
+                            
+                            <input type="radio" name="paham" id="dot-2">
+                            <br>
+                            <label for="dot-2">
+                                <span class="dot two"></span>
+                                <span class="gender2">Female</span>
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <div class="input-box">
+                        <span class="details">Email</span>
+                        <input type="email" name="email" placeholder="Enter your Email" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details"><br>Number</span>
+                        <input type="text" pattern=”[0-9]” name="nomor" placeholder="Enter your number" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details"><br><br>Photo Profile</span>
+                        <label class="button_img">
+                              <input type="file" name="gambar" required />
+                              <span class='label' data-js-label>Select Photo</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="boxKanan">
+                    <div class="input-box">
+                        <span class="details">Favorite Topics</span>
+                        <div class="topp">
+                            <br>
+                            <input class="checkbox" type="checkbox" id="makeup">
+                            <label class="check" for="makeup">Make Up</label>
+                        </div>
+                        <div>
+                            <input class="checkbox" type="checkbox" id="facecare">
+                            <label class="check" for="facecare">Face Care</label>
+                        </div>
+                        <div>
+                            <input class="checkbox" type="checkbox" id="bodycare">
+                            <label class="check" for="bodycare">Body Care</label>
+                        </div>
+                        <div>
+                            <input class="checkbox" type="checkbox" id="haircare">
+                            <label class="check" for="haircare">Hair Care</label>
+                        </div>
+                        <div class="input-box">
+                            <span class="details"><br>Skintype</span>
+                            <select class="select" name="skintype" required placeholder="Pilih Skintype">
+                                <option>Dry</option>
+                                <option>Normal</option>
+                                <option>Oily</option>
+                            </select>
+                        </div>
+                        <div class="input-box2">
+                            <span class="details"><br>Concerns</span>
+                            <textarea type="text" name="masalah_kulit" placeholder="Express all of your concern" 
+                                        rows="0"
+                                        cols="0"required>
+                            </textarea>
+                        </div>                       
+                </div>
+ 
+            </form> 
+              
+		</div>
+        <div class="button">
+            <label>
+                <input type="submit" value="Daftar">
+            </label>
+        </div>  
+	</main>
+
+	<footer>
+		<p>Copyright ©2023 Nay Daily ∙ All the rights reserved.</p>
+	</footer>
+</body>
+</html>

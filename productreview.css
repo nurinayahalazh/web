@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    font-family: Tahoma;
+}
+
+
+nav {
+    position: fixed;
+    width: 100%;
+    font-size: 18px;
+    background-color: #c23560ce;
+    padding: 20px 50px 10px 20px;
+    z-index: 100;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.295);
+    text-align: center;
+}
+
+nav a{
+    position: relative;
+    display: inline-block;
+    padding: 15px 15px 15px 15px;
+    border-radius: 10px;
+    color: #fff;
+    text-decoration: none
+}
+
+nav a:hover{
+    background-color: #ac536d;
+}
+
+main{
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+    background-color: #fff;
+    padding: 120px 0px 0px 0px;
+}
+
+main .welcome .judul{
+    text-align: center;
+    padding: 30px 0px 30px 0px;
+}
+
+main .produkreview{
+    position: relative;
+    left: 102px;
+    width: 1130px;
+    height: 1000px;
+}
+
+main .produkreview .judul{
+    padding: 30px 0px 30px 20px;
+    max-width: 100%;
+    text-align: center;
+}
+
+main .produkreview .review1{
+    position: relative;
+    left: 25px;
+    width: 1080px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.295);
+}
+
+main .produkreview .review2{
+    position: relative;
+    left: 25px;
+    top: 30px;
+    width: 1080px;
+    height: 420px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.295);
+}
+
+main .produkreview .review3{
+    position: relative;
+    left: 25px;
+    top: 60px;
+    width: 1080px;
+    height: 420px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.295);
+}
+
+main .produkreview .review4{
+    position: relative;
+    left: 25px;
+    top: 90px;
+    width: 1080px;
+    height: 420px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.295);
+}
+
+main .produkreview .review5{
+    position: relative;
+    left: 25px;
+    top: 120px;
+    width: 1080px;
+    height: 420px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.295);
+}
+
+main .produkreview .boxKiri{
+    position: relative;
+    left: 25px;
+    padding: 30px 30px 30px 30px;
+    display: inline-block;
+    width: 260px;
+    height: 400px;
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+main .produkreview .boxKanan{
+    position: relative;
+    left: 20px;
+    bottom: 70px;
+    padding: 30px 30px 30px 30px;
+    display: inline-block;
+    width: 650px;
+    height: 400px;
+}
+
+main .produkreview .boxKanan .username{
+    display: inline;
+    font-size: 18px;
+    text-align: center;
+    padding: 15px 15px 15px 0px;
+}
+main .produkreview .boxKanan .username-desc{
+    display: inline-block;
+    font-size: 13px;
+    font-weight: lighter;
+    padding: 10px 0px 30px 20px;
+}
+
+main .produkreview .boxKanan img{
+    display: flex;
+    position: relative;
+    padding: 0px 0px 5px 0px;
+}
+
+main .produkreview .boxKanan .username-recom{
+    font-size: 13px;
+    font-weight: bold;
+    padding: 0px 0px 15px 0px;
+}
+main .produkreview .boxKanan .username-review{
+    text-align: justify;
+    padding: 5px 5px 5px 0px;
+}
+
+main .more a{
+    position: relative;
+    top: 1350px;
+    text-align: center;
+    text-decoration: none;
+}
+
+main .more-button {
+    position: relative;
+    top: 1350px;
+    padding: 0px 0px 0px 600px;
+    text-decoration: none;
+}
+main .more-button a{
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    font-size: 16px;
+    color: #FFF;
+    padding: 13px 20px;
+    background-color: #ac536d;
+    border-radius: 40px;
+    cursor: pointer;
+}
+main .more-button a:hover{
+    text-align: center;
+    color: #ac536d;
+    background-color: rgba(225, 225, 225, 0.651);
+}
+
+footer{
+    position: relative;
+    top: 1400px;
+    background-color: rgba(225, 225, 225, 0.651);
+    padding: 25px 40px 25px 500px;
+    max-width: 100%;
+    font-size: 14px;
+}
